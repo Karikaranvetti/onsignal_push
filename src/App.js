@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import OneSignal from 'react-onesignal';
+
+OneSignal.init({ appId: '50e71849-0777-4233-ae1b-611ba8505f4e' });
 import './App.css';
 
 function App() {
